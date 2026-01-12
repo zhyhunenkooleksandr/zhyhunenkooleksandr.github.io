@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .content-wrapper {
-    padding: 0 5% 60px 5%;
+    padding: 0 10% 60px 10%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -95,13 +95,14 @@ nav ul li a:hover {
     display: block;
     width: 100%;
     height: auto;
+    margin: 0; 
 }
 
 .action-buttons {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .btn-card {
@@ -133,12 +134,86 @@ nav ul li a:hover {
 }
 
 .main-hero-area {
-    background-color: #3f1873;
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #b6b0be;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.bio-section {
+    display: flex; 
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #2d1d42;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.bio-profile {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #b6b0be;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #b6b0be;
+    margin-top: 15px;
+    text-align: center;
     width: 100%;
 }
 
-nav, .content-wrapper {
-    padding: 20px 5%; /* Side padding so content doesn't touch the dark edge */
+.bio-text {
+    flex: 1;
+}
+
+.bio-text h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.vision-section {
+    background-color: #2d1d42;
+    padding: 40px;
+    text-align: left;
+}
+
+.about-header {
+    background-color: #2d1d42; 
+    padding: 40px 10%;
+    margin-bottom: 40px;
+}
+
+.about-header h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-hero-area {
+    background-color: #b6b0be;
+    width: 100%;
+    margin-top: 0;
+}
+
+.content-wrapper.about-layout {
+    padding-top: 20px;
+}
+
+.bio-section, .vision-section {
+    width: 100%;
+    box-sizing: border-box; 
+    border-radius: 15px;
 }
