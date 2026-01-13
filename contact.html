@@ -29,48 +29,49 @@
 
     <form action="mailto:info@coffee.com" method="post" enctype="text/plain" class="contact-form">
 
-        <div>
-            <label for="input-topic">Who is contacting:</label>
-            <select name="Who are you?" id="input-topic" required>
-                <option value="" disabled selected>Choose an option</option>
-                <option value="I am student from Malta">I am student from Malta</option>
-                <option value="I am student from abroad">I am student from abroad</option>
-                <option value="I am teacher">I am teacher</option>
-            </select>
-        </div>
 
-        <div>
-        <!-- Labels can be linked to inputs using ID-->
-        <label for="input-name">Name:</label>
-        <input type="text" name="name" 
-            id="input-name" 
-            placeholder="John Jack"
-            required
-            minlength="4">
-        </div>
+    <div class="main-hero-area">
+    <main class="content-wrapper">
+        <section class="about-header">
+            <h1>Contact Us</h1>
+        </section>
 
-        <div>
-            <label for="input-email">Email:</label>
-            <input type="email" name="email"
-            id="input-email"
-            placeholder="me@example.com"
-            required>
-        </div>
+        <form action="mailto:info@mcast.edu.mt" method="post" enctype="text/plain" class="contact-form">
+            <div class="form-group">
+                <label for="input-topic">Who is contacting:</label>
+                <select name="Who are you?" id="input-topic" required>
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="I am student from Malta">I am student from Malta</option>
+                    <option value="I am student from abroad">I am student from abroad</option>
+                    <option value="I am teacher">I am teacher</option>
+                </select>
+            </div>
 
-        <div>
-            <label for="input-message">Your message:</label>
-            <textarea name="message" id="input-message" 
-            placeholder="Your message here..."
-            cols="30" rows="10"
-            required
-            minlength="20"></textarea>
-        </div>
+            <div class="form-group">
+                <label for="input-name">Name:</label>
+                <input type="text" name="name" id="input-name" placeholder="John Jack" required minlength="4">
+            </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-        <button type="reset" class="btn btn-secondary">Reset</button>
+            <div class="form-group">
+                <label for="input-email">Email:</label>
+                <input type="email" name="email" id="input-email" placeholder="me@example.com" required>
+            </div>
 
+            <div class="form-group">
+                <label for="input-message">Your message:</label>
+                <textarea name="message" id="input-message" placeholder="Your message here..."
+                cols="30" rows="10"
+                required
+                minlength="20" 
+                 =></textarea>
+            </div>
 
-        </main>
-    </div>
+            <div class="form-buttons">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form>
+    </main>
+</div>
 </body>
 </html>

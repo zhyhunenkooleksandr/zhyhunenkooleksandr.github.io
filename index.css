@@ -11,6 +11,8 @@ body {
 header {
     background-color: #3f1873;
     padding: 10px 20px;
+    margin: 0 auto 50px auto;
+    padding: 10px 20px;
 }
 
 .logo-container {
@@ -135,7 +137,7 @@ nav ul li a:hover {
 .main-hero-area {
     background-color: #3f1873;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     width: 100%;
 }
 
@@ -290,3 +292,58 @@ h1, h2, h3, h4, h5, h6 {
 .btn-secondary:active {
     background-color: var(--muted-tint);
 }
+
+.contact-form {
+    background-color: #2d1d42;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #b6b0be;
+}
+
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #b6b0be;
+    font-size: 16px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #2d1d42;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-form .btn {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+}
+
