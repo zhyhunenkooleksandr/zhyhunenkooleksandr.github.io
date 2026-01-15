@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mcast - About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html" class="logo-link">
+                    <img src="Logo-and-textures/Mcast Logo.png" alt="MCAST Logo" class="logo-img">
+                    <span class="logo-text">MCAST</span>
+                </a>
+            </div>
+            <ul>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="main-hero-area">
+    <main class="content-wrapper courses-layout">
+        
+        <aside class="sidebar">
+            <h3>All Courses</h3>
+            <ul class="filter-list">
+                <li><input type="checkbox" class="filter-check" value="design" id="design"> <label for="design">Graphic</label></li>
+                <li><input type="checkbox" class="filter-check" value="it" id="it"> <label for="it">IT</label></li>
+                <li><input type="checkbox" class="filter-check" value="digital"id="digital"> <label for="digital">Digital</label></li>
+                <li><input type="checkbox" class="filter-check" value="journalism"id="journalism"> <label for="journalism">Journalism</label></li>
+                <li><input type="checkbox" class="filter-check" value="fineart" id="fineart"> <label for="fineart">Fine Art</label></li>
+                <li><input type="checkbox" class="filter-check" value="printing" id="printing"> <label for="printing">Printing</label></li>
+            </ul>
+        </aside>
+    
+    <div class="course-grid">
+    <div class="course-item" data-category="design" id="course-graphic">
+        <img src="Logo-and-textures/Graphic design.jpg" alt="Design">
+        <div class="course-name">Graphic Design L4-L6</div>
+    </div>
+
+    <div class="course-item" data-category="it" id="course-it">
+        <img src="Logo-and-textures/IT.jpg" alt="IT">
+        <div class="course-name">Information Technology</div>
+    </div>
+
+    <div class="course-item" data-category="digital" id="course-digital">
+        <img src="Logo-and-textures/Digital Design.jpg" alt="Digital">
+        <div class="course-name">Digital Design L4-L6</div>
+    </div>
+    
+    <div class="course-item" data-category="fineart" id="course-fineart">
+        <img src="Logo-and-textures/Fine Art.jpg" alt="Fine Art">
+        <div class="course-name">Fine Art</div>
+    </div>
+
+    <div class="course-item" data-category="printing" id="course-printing">
+        <img src="Logo-and-textures/Printing.jpg" alt="Printing">
+        <div class="course-name">Printing</div>
+    </div>
+
+    <div class="course-item" data-category="journalism" id="course-journalism">
+        <img src="Logo-and-textures/Journalism.jpg" alt="Journalism">
+        <div class="course-name">Journalism</div>
+    </div>
+    </div>
+
+    </main>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
